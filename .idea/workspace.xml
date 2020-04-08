@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfafd4c-ad0b-424c-b96b-36efeb041b88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/手写const.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/手写let.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写apply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写call.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/深入理解this.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/手写const.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写const.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +81,8 @@
       <workItem from="1566443198393" duration="198000" />
       <workItem from="1566472225779" duration="1370000" />
       <workItem from="1567338176791" duration="3655000" />
-      <workItem from="1586312063620" duration="3693000" />
+      <workItem from="1586312063620" duration="4052000" />
+      <workItem from="1586328410999" duration="6415000" />
     </task>
     <servers />
   </component>
@@ -91,7 +94,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
