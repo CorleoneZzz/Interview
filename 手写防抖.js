@@ -25,7 +25,7 @@ function fn(content) {
     console.log('ajax request ' + content)
 }
 let inputEle = document.getElementById('debounce');
-let debounceFn = debounce(fn, 500);
+let debounceFn = debounce(fn, 500); // 返回debounce return的函数
 inputEle.addEventListener('keyup', function (e) {
     debounceFn(e.target.value)
 });
