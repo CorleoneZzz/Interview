@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfafd4c-ad0b-424c-b96b-36efeb041b88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/手写bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手写防抖.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/手写apply.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写apply.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/手写call.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写call.js" afterDir="false" />
@@ -79,7 +81,11 @@
       <workItem from="1566472225779" duration="1370000" />
       <workItem from="1567338176791" duration="3655000" />
       <workItem from="1586312063620" duration="4052000" />
-      <workItem from="1586328410999" duration="8075000" />
+      <workItem from="1586328410999" duration="8278000" />
+      <workItem from="1586397469242" duration="1744000" />
+      <workItem from="1586402031493" duration="593000" />
+      <workItem from="1586403720541" duration="193000" />
+      <workItem from="1586420477073" duration="6591000" />
     </task>
     <servers />
   </component>
