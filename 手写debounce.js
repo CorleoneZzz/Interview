@@ -2,6 +2,15 @@
 // 防抖，即短时间内大量触发同一事件，只会执行一次函数，实现原理为设置一个定时器，
 // 约定在xx毫秒后再触发事件处理，每次触发事件都会重新设置计时器，直到xx毫秒内无第二次操作，
 // 防抖常用于搜索框/滚动条的监听事件处理，如果不做防抖，每输入一个字/滚动屏幕，都会触发事件处理，造成性能浪费。
+// 思路就是
+// function debounce(func, delay) {
+//     let lastFn = null;
+//     return function (args) {
+//         if (lastFn) clearTimeout(lastFn); // 先移除上次还处于延迟中的任务，然后重新发起一次新的延迟等待。
+//         lastFn = setTimeout(() => {func(args)}, delay)
+//     }
+// }
+// 正式版
 function debounce(func, delay) {
     if (typeof func !== 'function') { // 参数类型为函数
         throw new TypeError('func is not a function');
