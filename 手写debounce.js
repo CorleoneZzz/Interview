@@ -6,14 +6,14 @@ function debounce(func, delay) {
     if (typeof func !== 'function') { // 参数类型为函数
         throw new TypeError('func is not a function');
     }
-    let lastFn = null;
+    let lastFn = null; // lastFn是定时器的标识符，具有唯一性
     return function (args) {
         let that = this;
         let _args = args;
         if (lastFn) clearTimeout(lastFn);
         lastFn = setTimeout(() => {
             func.call(that, _args)
-        }, delay)
+        }, delay);
     }
 }
 // 其实很简单，就是每次调用函数前，先移除上次还处于延迟中的任务，然后重新发起一次新的延迟等待。
@@ -27,5 +27,5 @@ function fn(content) {
 let inputEle = document.getElementById('debounce');
 let debounceFn = debounce(fn, 500); // 返回debounce return的函数
 inputEle.addEventListener('keyup', function (e) {
-    debounceFn(e.target.value)
+    debounceFn(e.target.value) // 这个时候执行debounce return的函数
 });
