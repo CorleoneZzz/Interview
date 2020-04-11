@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfafd4c-ad0b-424c-b96b-36efeb041b88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/拍平array.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/手写debounce.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写debounce.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/手写throttle.js" beforeDir="false" afterPath="$PROJECT_DIR$/手写throttle.js" afterDir="false" />
     </list>
@@ -94,7 +96,9 @@
       <workItem from="1586402031493" duration="593000" />
       <workItem from="1586403720541" duration="193000" />
       <workItem from="1586420477073" duration="6591000" />
-      <workItem from="1586510981175" duration="6352000" />
+      <workItem from="1586510981175" duration="6381000" />
+      <workItem from="1586570196446" duration="1955000" />
+      <workItem from="1586572326377" duration="2252000" />
     </task>
     <servers />
   </component>

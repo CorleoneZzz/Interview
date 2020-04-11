@@ -15,7 +15,7 @@ function debounce(func, delay) {
     if (typeof func !== 'function') { // 参数类型为函数
         throw new TypeError('func is not a function');
     }
-    let lastFn = null; // lastFn是定时器的标识符，具有唯一性
+    let lastFn = null; // lastFn是定时器的标识符，具有唯一性，此处为初始化
     return function (args) {
         let that = this;
         let _args = args;
