@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfafd4c-ad0b-424c-b96b-36efeb041b88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/模拟new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/冒泡排序(Bubble Sort).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/快速排序(Quick Sort).js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,8 @@
       <workItem from="1586510981175" duration="6381000" />
       <workItem from="1586570196446" duration="1955000" />
       <workItem from="1586572326377" duration="3394000" />
-      <workItem from="1586577066403" duration="3466000" />
+      <workItem from="1586577066403" duration="4608000" />
+      <workItem from="1587113912912" duration="1001000" />
     </task>
     <servers />
   </component>
