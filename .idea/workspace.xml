@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfafd4c-ad0b-424c-b96b-36efeb041b88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/冒泡排序(Bubble Sort).js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/快速排序(Quick Sort).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/插入排序(Insertion Sort).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/选择排序(Selection Sort).js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/冒泡排序(Bubble Sort).js" beforeDir="false" afterPath="$PROJECT_DIR$/冒泡排序(Bubble Sort).js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +99,11 @@
       <workItem from="1586570196446" duration="1955000" />
       <workItem from="1586572326377" duration="3394000" />
       <workItem from="1586577066403" duration="4608000" />
-      <workItem from="1587113912912" duration="1001000" />
+      <workItem from="1587113912912" duration="1250000" />
+      <workItem from="1587351410055" duration="520000" />
+      <workItem from="1587365133535" duration="1226000" />
+      <workItem from="1587376675593" duration="587000" />
+      <workItem from="1588042368478" duration="2811000" />
     </task>
     <servers />
   </component>
