@@ -19,17 +19,23 @@ function throttle(func, delay) {
 
 // 实现方式2：使用两个时间戳prev旧时间戳和now新时间戳，每次触发事件都判断二者的时间差，如果到达规定时间，执行函数并重置旧时间戳
 function throttle(func, delay) {
-    if (typeof func !== 'function') { // 参数类型为函数
+    if (typeof func !== 'function') {
         throw new TypeError('func is not a function');
     }
-    var prev = 0;
-    return function(args) {
-        let now = Date.now();
-        let that = this;
-        let _args = args;
-        if (now - prev > delay) {
-            func.call(that, _args);
-            prev = now;
+    let prev = 0;
+    let count = 0;
+    if (count !== 0) {
+        return
+    } else {
+        return function(args) {
+            count++;
+            let now = Date.now();
+            let that = this;
+            let _args = args;
+            if (now - prev > delay) {
+                func.call(that, _args);
+                prev = now;
+            }
         }
     }
 }
@@ -43,3 +49,15 @@ let debounceFn = throttle(fn, 500); // 返回debounce return的函数, 给lastFn
 inputEle.addEventListener('keyup', function (e) {
     debounceFn(e.target.value) // 这个时候执行debounce return的函数
 });
+
+
+
+var reverse = function(head) {
+    if (head == null || head.next == null) {
+        return head;
+    }
+    var newHead = reverse(head.next);
+    head.next.next = head;
+    head.next = null;
+    return newHead;
+};
