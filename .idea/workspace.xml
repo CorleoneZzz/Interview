@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfafd4c-ad0b-424c-b96b-36efeb041b88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaScript/手动实现JSBridge.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/const.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/let.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/冒泡排序(Bubble Sort).js" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/冒泡排序(Bubble Sort).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/字符串.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/实现MVVM.js" beforeDir="false" afterPath="$PROJECT_DIR$/Vue/实现MVVM.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/快速排序(Quick Sort).js" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/快速排序(Quick Sort).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写apply.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/手写apply.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/手写bind.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写call.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/手写call.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写const.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/手写const.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写debounce.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/手写debounce.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写let.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/手写let.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/手写promise.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/手写throttle.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/手写throttle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/拍平array.js" beforeDir="false" afterPath="$PROJECT_DIR$/Question/拍平array.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/插入排序(Insertion Sort).js" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/插入排序(Insertion Sort).js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/模拟new.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/模拟new.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/深入理解this.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/红灯黄灯绿地永动播放.js" beforeDir="false" afterPath="$PROJECT_DIR$/异步/红灯黄灯绿地永动播放.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/解构.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/选择排序(Selection Sort).js" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/选择排序(Selection Sort).js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +46,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/异步" />
       <recent name="$PROJECT_DIR$/Question" />
+      <recent name="$PROJECT_DIR$/异步" />
       <recent name="$PROJECT_DIR$/dataStructure" />
       <recent name="$PROJECT_DIR$/Vue" />
       <recent name="$PROJECT_DIR$/JavaScript" />
@@ -173,7 +151,12 @@
       <workItem from="1597837341512" duration="899000" />
       <workItem from="1597911402163" duration="1069000" />
       <workItem from="1597913292494" duration="1000" />
-      <workItem from="1597913355256" duration="478000" />
+      <workItem from="1597913355256" duration="1417000" />
+      <workItem from="1597917236602" duration="237000" />
+      <workItem from="1597974558057" duration="2301000" />
+      <workItem from="1597995855470" duration="29000" />
+      <workItem from="1597995892037" duration="23000" />
+      <workItem from="1597996551104" duration="123000" />
     </task>
     <servers />
   </component>
